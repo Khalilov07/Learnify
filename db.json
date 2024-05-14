@@ -1,0 +1,103 @@
+{
+  "courses": [
+    {
+      "title": "UX/UI-дизайнер,",
+      "category": "UX/UI",
+      "description": "Хотите стать экспертом в UX/UI-дизайне? Ищете идеальный курс для своего профессионального роста? Тогда наш обзор курсов UX/UI-дизайна — ваш надежный путеводитель! Не упустите шанс окунуться в мир образования и UX/UI-дизайна. Присоединяйтесь к нам, чтобы сделать следующий шаг в вашей карьере!",
+      "video": "UI-UX.mp4",
+      "image": "ui-ux.jpg",
+      "date": "2024-05-30",
+      "time": "03:36",
+      "id": 1,
+      "comments": [
+        {
+          "title": "dawdaw",
+          "name": "admin"
+        }
+      ]
+    },
+    {
+      "title": "Java-script",
+      "category": "Java-Script",
+      "description": "Хотите стать экспертом в разработке на JavaScript? Ищете идеальный курс для своего профессионального роста? Тогда наш обзор курсов разработки на JavaScript — ваш надежный путеводитель! Не упустите шанс окунуться в мир образования и разработки на JavaScript. Присоединяйтесь к нам, чтобы сделать следующий шаг в вашей карьере в IT!",
+      "video": "Java-script.mp4",
+      "image": "java-script.webp",
+      "date": "2024-05-01",
+      "time": "04:35",
+      "id": 2,
+      "comments": [
+        {
+          "title": "asd",
+          "name": "admin"
+        },
+        {
+          "title": "dawdaw",
+          "name": "admin"
+        },
+        {
+          "title": "dawdaw",
+          "name": "admin"
+        },
+        {
+          "title": "хороший курс ",
+          "name": "admin"
+        },
+        {
+          "title": "hello ",
+          "name": "Akram"
+        },
+        {
+          "title": "dadwdaw",
+          "name": "Akram"
+        },
+        {
+          "title": "dadwdaw",
+          "name": "Akram"
+        },
+        {
+          "title": "dadwdaw",
+          "name": "Akram"
+        },
+        {
+          "title": "bhj",
+          "name": "Akram"
+        },
+        {
+          "title": "bhj",
+          "name": "Akram"
+        }
+      ]
+    },
+    {
+      "title": "Python",
+      "category": "Pythin",
+      "description": "Желаете стать экспертом в программировании на Python? Ищете идеальный курс для своего профессионального развития? Тогда наш обзор обучающих курсов по Python — ваш надежный гид! Не упустите возможность погрузиться в мир образования и перспектив разработки на Python. Присоединяйтесь к нам, чтобы сделать следующий шаг в вашей карьере в ИТ-области.",
+      "video": "python.mp4",
+      "image": "python.png",
+      "date": "2024-05-10",
+      "time": "06:36",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "khalilovakram07@gmail.com",
+      "password": "$2a$10$yyH4UJvKdDUqPMrDMffwze.xiSwvSy7VTXjWaAR.qELtKVnzLlDiC",
+      "name": "Akram",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$M1ZI7ElWaMQ4cARlLnRQEuu/vRL28O75zmuWok8gPviDJcVqcCMma",
+      "name": "admin",
+      "status": "admin",
+      "id": 2
+    },
+    {
+      "email": "akram32343201@gmail.com",
+      "password": "$2a$10$sLDlExICFqIG9d3gApQcN.xhdUfBdIdji4WTx9ot37JaPithARB52",
+      "name": "wdakdwlaw",
+      "id": 3
+    }
+  ]
+}
