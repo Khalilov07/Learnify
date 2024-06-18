@@ -23,8 +23,7 @@ const drawerWidth = 280;
 const links = [
     { label: 'Главная', to: '/' }, ,
     { label: 'Курсы', to: '/courses' },
-    { label: 'Регистрация', to: '/register' },
-    { label: 'Авторизация', to: '/login' },
+    { label: 'Авторизация', to: '/login' }
 ];
 
 const linksAccAdmin = [
@@ -83,7 +82,7 @@ const Header = (props) => {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                Learnify
+                LEARNIFY
             </Typography>
             <Divider />
             <List>
@@ -121,7 +120,7 @@ const Header = (props) => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        Learnify
+                  LEARNIFY
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {user === null ?

@@ -21,12 +21,12 @@ import { getData } from '../../services/queries';
 
 
 
-const categories = ["All", "UX/UI", "Java-Script", "Python"];
+const categories = ["ВСЕ", "UX/UI", "Java-Script", "Python"];
 
 const CoursePage = () => {
     const [filter, setFilter] = useState('');
     const [visibleEvents, setVisibleEvents] = useState(4);
-    const [selectedCategory, setSelectedCategory] = useState('All');
+    const [selectedCategory, setSelectedCategory] = useState('ВСЕ');
     const [data, setData] = useState([])
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const CoursePage = () => {
 
     const filteredEvents = data.filter(
         (course) =>
-            (selectedCategory === 'All' || course.category === selectedCategory) &&
+            (selectedCategory === 'ВСЕ' || course.category === selectedCategory) &&
             (course.title.toLowerCase().includes(filter.trim().toLowerCase()) ||
                 course.category.toLowerCase().trim().includes(filter.trim().toLowerCase()))
     );
@@ -57,7 +57,7 @@ const CoursePage = () => {
             {/* Фильтр и поиск */}
             <Box marginBottom={2} mt={20} textAlign="center">
                 <TextField
-                    label="Search"
+                    label="Поиск"
                     variant="outlined"
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
@@ -113,7 +113,7 @@ const CoursePage = () => {
                             textTransform: 'none',
                         }}
                     >
-                        Load more
+                        Больше курсов...
                     </Button>
                 </Box>
             )}

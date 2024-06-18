@@ -9,21 +9,20 @@ import { logOut } from '../../store/userSlice';
 
 const Links = () => {
     const menuItems = [
-        { label: 'Home', to: '/' },
-        { label: 'Courses', to: '/courses' },
-        { label: 'Register', to: '/register' },
-        { label: 'Login', to: '/login' }
+        { label: 'Главная', to: '/' },
+        { label: 'Курсы', to: '/courses' },
+        { label: 'Авторизация', to: '/login' }
     ];
 
     const menuItemsAccAdmin = [
-        { label: 'Home', to: '/' },
-        { label: 'Courses', to: '/courses' },
-        { label: 'Add Course', to: '/addcourse' }
+        { label: 'Главная', to: '/' },
+        { label: 'Курсы', to: '/courses' },
+        { label: 'Добавления', to: '/addcourse' }
     ];
 
     const menuItemsAccUser = [
-        { label: 'Home', to: '/' },
-        { label: 'Courses', to: '/courses' },
+        { label: 'Главная', to: '/' },
+        { label: 'Курсы', to: '/courses' },
     ];
 
     const [anchorEl, setAnchorEl] = React.useState(null);

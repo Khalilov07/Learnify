@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Container, Typography, Button } from "@mui/material"
+import { Link } from 'react-router-dom';
 
 
 
@@ -33,16 +34,18 @@ const Greeting = () => {
                 >
                     Hайди себя и новую профессию в Learnify
                 </Typography>
-                <Button
-                    href="#applyNowForm"
-                    variant="contained"
-                    sx={{
-                        background: "#12161F",
-                        fontWeight: "bold",
-                        fontSize: '1.2rem'
-                    }}>
-                    Применить сейчас
-                </Button>
+                <Link to="/courses">
+                    <Button
+                        href="#applyNowForm"
+                        variant="contained"
+                        sx={{
+                            background: "#12161F",
+                            fontWeight: "bold",
+                            fontSize: '1.2rem'
+                        }}>
+                        Применить сейчас
+                    </Button>
+                </Link>
             </Container>
         </Box>
     );

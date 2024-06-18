@@ -57,14 +57,11 @@ const Footer = () => {
                         <Button component={Link} onClick={() => scrollToTop()} to="/" color="inherit" sx={{ display: 'block', mt: 1 }}>
                             Главная
                         </Button>
-                        <Button component={Link} onClick={() => scrollToTop()} to="/about" color="inherit" sx={{ display: 'block', mt: 1 }}>
+                        <Button component={Link} onClick={() => scrollToTop()} to="/courses" color="inherit" sx={{ display: 'block', mt: 1 }}>
                             Курсы
                         </Button>
-                        <Button component={Link} onClick={() => scrollToTop()} to="/course" color="inherit" sx={{ display: 'block', mt: 1 }}>
+                        <Button component={Link} onClick={() => scrollToTop()} to="/addCourse" color="inherit" sx={{ display: 'block', mt: 1 }}>
                             Добавить курс
-                        </Button>
-                        <Button component={Link} onClick={() => scrollToTop()} to="/blog" color="inherit" sx={{ display: 'block', mt: 1 }}>
-
                         </Button>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4}>
